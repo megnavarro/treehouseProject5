@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: #003366;
 }
 
 header {
@@ -29,9 +29,25 @@ header {
 }
 
 header h1 {
-    font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    font-size: 1.75em;
+    color: #e5f0ff;
     margin-top: 35px;
+}
+
+
+.reset-btn {
+    cursor: pointer;
+    height: 33px;
+    background: #727787;
+    border-radius: 0.25em;
+    border: 1px solid #a6abbd;
+    transition: .4s ease-out;
+    outline: none;
+    margin-top: 3px;
+    max-width: 5rem;
+    display: inline-block;
+    font-size: 0.85em;
+    color: white;
 }
 
 .search-input {
@@ -87,9 +103,9 @@ header h1 {
     max-width: 360px;
     margin: 10px 10px 20px;
     padding: 10px;
-    background: rgba(245, 245, 245, 0.9);
+    background: #a6abbd;
     border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border: 3px solid #f6f9ff;
     transition: .4s ease-out;
     overflow: hidden;
 }
@@ -119,6 +135,9 @@ header h1 {
     text-transform: capitalize;
 }
 
+.hidden {
+    display: none;
+}
 
 /* ===================================== 
    Modal
@@ -140,9 +159,9 @@ header h1 {
     min-height: 415px;
     margin: 10px auto auto;
     padding-bottom: 15px;
-    background: rgba(255, 255, 255, 1);
+    background: #f7f9ff;
     border-radius: 0.25em;
-    border: 1px solid rgba(100, 100, 100, 0.3);
+    border: 1px solid #a6abbd;
     transition: .4s ease-out;
 }
 
@@ -152,10 +171,10 @@ header h1 {
     right: 15px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.9);
-    background: rgba(0, 0, 0, 0.8);
+    background: #727787;
     outline: none;
     border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border: 1px solid #a6abbd;
 }
 
 .modal-img {
@@ -188,9 +207,6 @@ header h1 {
     max-width: 420px;
     padding: 10px 15px 15px;;
     margin: 10px auto auto;
-    background: rgba(255, 255, 255, 1);
-    border-radius: 0.25em;
-    border: 1px solid rgba(100, 100, 100, 0.3);
 }
 
 
@@ -201,7 +217,8 @@ header h1 {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.9);
     padding: 0.75em 1.5em;
-    background: rgba(0, 0, 0, 0.8);
+    background: #727787;
+    border: 1px solid #a6abbd;
     border-radius: 0.35em;
     transition: .4s ease-out;
     outline: none;
